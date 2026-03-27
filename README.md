@@ -30,7 +30,7 @@ uvicorn main:app --reload
 
 A API rodará em http://localhost:8000.
 
-###2. Frontend (Interface)
+### 2. Frontend (Interface)
 
 Em um novo terminal, navegue até a pasta do frontend e instale as dependências:
 cd frontend
