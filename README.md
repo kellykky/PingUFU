@@ -13,7 +13,7 @@ O PingUfu é um assistente virtual inteligente desenvolvido para os alunos da Fa
 
 O projeto é dividido em duas partes que devem rodar simultaneamente em terminais separados.
 
-#@# 1. Backend (API)
+### 1. Backend (API)
 
 Navegue até a pasta do backend e instale as dependências:
 cd backend
