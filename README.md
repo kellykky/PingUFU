@@ -18,7 +18,8 @@ O projeto é dividido em duas partes que devem rodar simultaneamente em terminai
 Navegue até a pasta do backend e instale as dependências:
 cd backend
 python -m venv .venv
-source .venv/bin/activate  # No Windows use: .venv\Scripts\activate
+source .venv/bin/activate  
+[No Windows use: .venv\Scripts\activate]
 pip install -r requirements.txt
 
 Crie um arquivo .env na pasta backend com as suas credenciais:
