@@ -1,4 +1,4 @@
-###PingUfu - Chatbot Acadêmico
+### PingUfu - Chatbot Acadêmico
 
 O PingUfu é um assistente virtual inteligente desenvolvido para os alunos da Faculdade de Computação (FACOM) da UFU. Ele utiliza a arquitetura RAG (Retrieval-Augmented Generation) para consultar uma base de dados oficial (ementas, regras de estágio, etc.) antes de responder, garantindo precisão e evitando alucinações da IA.
 
