@@ -15,29 +15,38 @@ O projeto é dividido em duas partes que devem rodar simultaneamente em terminai
 
 ### 1. Backend (API)
 
-Navegue até a pasta do backend e instale as dependências:
+- Navegue até a pasta do backend e instale as dependências:
+
 cd backend
+
 python -m venv .venv
-source .venv/bin/activate  
-[No Windows use: .venv\Scripts\activate]
+
+source .venv/bin/activate (no Windows use: .venv\Scripts\activate)
+
 pip install -r requirements.txt
 
-Crie um arquivo .env na pasta backend com as suas credenciais:
+- Crie um arquivo .env na pasta backend com as suas credenciais:
+
 GEMINI_API_KEY=sua_chave_aqui
+
 MONGO_URI=sua_string_mongodb_aqui
 
-Inicie o servidor:
+- Inicie o servidor:
+
 uvicorn main:app --reload
 
 A API rodará em http://localhost:8000.
 
 ### 2. Frontend (Interface)
 
-Em um novo terminal, navegue até a pasta do frontend e instale as dependências:
+- Em um novo terminal, navegue até a pasta do frontend e instale as dependências:
+
 cd frontend
+
 npm install
 
-Inicie o servidor web:
+- Inicie o servidor web:
+
 npm run dev
 
-Acesse a aplicação no seu navegador pelo link gerado no terminal (geralmente http://localhost:8080 ou http://localhost:5173).
+- Acesse a aplicação no seu navegador pelo link gerado no terminal (geralmente http://localhost:8080 ou http://localhost:5173).
