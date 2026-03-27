@@ -1,0 +1,20 @@
+# --- Essenciais para o Chatbot ---
+google-genai
+openai
+python-dotenv
+pymongo[srv]
+dnspython
+requests
+beautifulsoup4
+
+# --- Essenciais para RAG e Vetores ---
+sentence-transformers
+langchain-huggingface
+langchain-text-splitters
+langchain
+langchain-community
+
+# --- Backend API (Web) ---
+fastapi
+uvicorn
+pydantic
