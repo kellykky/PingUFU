@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 # Carrega variáveis do arquivo .env
-load_dotenv()
+load_dotenv(override=True)
 
 print(f"DEBUG MONGO: {os.getenv('MONGO_URI')}")
 
@@ -30,7 +30,7 @@ class GeminiClient:
             if not api_key:
                 raise ValueError("GEMINI_API_KEY não encontrada no .env")
             
-            self.client = genai.Client()
+            self.client = genai.Client(api_key=api_key)
             self.types = types
             
         except ImportError:
